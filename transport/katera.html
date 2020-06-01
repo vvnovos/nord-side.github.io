@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nord Side: Всё о катерах</title>
+  <link rel="preload" href="../fonts/opensans.woff2" as="font">
+  <link rel="preload" href="../fonts/opensansbold.woff2" as="font">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="page">
+  <header class="page-header">
+    <div class="search-header">
+      <form class="search__form">
+        <input class="search__input" type="text" name="" placeholder="Поиск по сайту">
+      </form>
+   </div>
+    <nav class="top-nav">
+      <ul class="top-nav__list">
+        <li class="top-nav__item">
+          <a class="top-nav__link" href="../vicinity.html">Окрестности</a>
+        </li>
+        <li class="top-nav__item">
+          <a class="top-nav__link" href="../beaches-crimea.html">Пляжи западного побережья</a>
+        </li>
+      </ul>
+      <ul class="top-nav__list top-nav__list--contacts">
+        <li class="top-nav__item">
+          <a class="top-nav__link" href="../contacts.html">Обратная связь</a>
+        </li>
+        <li class="top-nav__item">
+          <a class="top-nav__link" href="../cooperation.html">Сотрудничество</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="page-header__logo-wrapper">
+      <a class="page-header__logo" href="../../index.html">
+        <img class="page-header__logo-image" src="../img/logo/logo-severnaya.svg" alt="Логотип сайта" width="163" height="120">
+      </a>
+      <button class="page-header__nav-button page-header__nav-button--closed visually-hidden" type="button" aria-label="Открыть меню">
+      </button> <!-- Гамбургер -->
+      <a class="page-header__promo" href="index.html">
+        <img class="page-header__promo-image" src="../img/zastavka.gif" alt="Заставка" width="688" height="112">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="../about.html">О Северной</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="../news.html">Новости</a>
+        </li>
+        <li class="main-nav__item transport-nav">
+          <a class="main-nav__link main-nav__link--transport" href="transport.html">Транспорт</a>
+          <ul class="transport-nav__list visually-hidden">
+            <li class="transport-nav__item"><a class="transport-nav__link" href="">Главная</a></li>
+            <li class="transport-nav__item"><a class="transport-nav__link transport-nav__link--active">Катера</a></li>
+            <li class="transport-nav__item"><a class="transport-nav__link" href="">Паром</a></li>
+            <li class="transport-nav__item"><a class="transport-nav__link" href="">Автобусы</a></li>
+            <li class="transport-nav__item"><a class="transport-nav__link" href="">Автобусы межгород</a></li>
+            <li class="transport-nav__item"><a class="transport-nav__link" href="">Поезда</a></li>
+            <button class="transport-nav__button" type="button" aria-label="Закрыть меню транспорт">Закрыть</button>
+          </ul>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="districts.html">Районы</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="beaches.html">Пляжи</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="routes.html">Что посмотреть</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="food.html">Еда</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="shopping.html">Покупки</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="hotels.html">Жилье</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="saunas.html">Сауны</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="useful.html">Полезно знать</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="title">Катера</h1>
+  <!--   <section class="announcement">
+      <h1 class="visually-hidden">Северная сторона: список тем</h1>
+      <p class=""></p>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+          <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+          <h2 class="theme__title">Как и на чем доехать</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Можно доехать на автобусе, на катере/пароме, на междугороднем автобусе, на электричке, на авто или дойти пешком. Расписание движения и подробные инструкции.
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+          <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+          <h2 class="theme__title">Районы Северной стороны. Какие они?</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Знание районов Северной поможет найти то место, где лучше остановиться и как соориентироваться.
+          Кача, Любимовка, Радиогорка, Орловка и т.д.
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+          <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+          <h2 class="theme__title">Все о пляжах Северной</h3>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">По сравнению с Южной стороной Севастополя, Северная может похвастаться большим количеством самых разных пляжей. Но далеко не все они одинаково хороши...
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+         <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+          <h2 class="theme__title">Интересные маршруты</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">При плохой погоде летом, да и не в сезон, можно найти много  мест для путешествий и интересных пешеходных прогулок.
+          На Северной есть, что посмотреть!
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+          <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+         <h2 class="theme__title">Пойти в кафе или заказать на дом?</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Инфраструктура общественного питания на Северной стороне развита слабо. Многие заведения работают  только сезонно.
+          Куда то пойти или воспользоваться доставкой?
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+         <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+         <h2 class="theme__title">Где и что купить?</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Торговых центров на Северной нет. Зато есть рынки и похожие на супермаркеты магазины:&#41;
+          Где и что купить?
+          Рассказываем подробно.
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+         <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+         <h2 class="theme__title">Места где жить</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Гостевых домов, турбаз, пансионатов и квартир, сдающихся в аренду на Северной великое множество. Мы не Авито и не Букинг, но кое-что можем рассказать.
+        </p>
+      </article>
+      <article class="announcement__theme theme">
+        <a class="theme__link-image" href="">
+         <img class="theme__image" src="img/rect.jpg" alt="" width="260" height="140">
+        </a>
+        <a class="theme__link-title" href="">
+          <h2 class="theme__title">Полезные мелочи</h2>
+        </a>
+        <p class="theme__add">Актуально&#47;&#47;
+          <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+        <p class="theme__text">Иногда нужно знать еще кое-что:&#41;
+          СТО, больницы, МФЦ, автомойки, парикмахерские, да и просто где найти туалет.
+        </p>
+      </article>
+    </section>
+    <section class="presentation">
+      <figure class="describe">
+        <a class="describe__link" href="">
+          <img class="describe__image" src="img/crimean-1.jpg" alt="" width="176" height="110">
+          <figcaption class="describe__title">Пляж в Угловом</figcaption>
+        </a>
+        <p class="describe__add">Актуально&#47;&#47;
+            <time datetime="2020-02-07">11 февраля 2020</time>
+        </p>
+      </figure>
+      <figure class="describe">
+        <a class="describe__link" href="">
+          <img class="describe__image" src="img/crimean-1.jpg" alt="" width="176" height="110">
+          <figcaption class="describe__title">Инженерная балка</figcaption>
+        </a>
+        <p class="describe__add">Актуально&#47;&#47;
+            <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+      </figure>
+      <figure class="describe">
+        <a class="describe__link" href="">
+          <img class="describe__image" src="img/crimean-1.jpg" alt="" width="176" height="110">
+          <figcaption class="describe__title">Братское кладбище</figcaption>
+        </a>
+        <p class="describe__add">Актуально&#47;&#47;
+            <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+      </figure>
+      <figure class="describe">
+        <a class="describe__link" href="">
+          <img class="describe__image" src="img/crimean-1.jpg" alt="" width="176" height="110">
+          <figcaption class="describe__title">30 батарея</figcaption>
+        </a>
+        <p class="describe__add">Актуально&#47;&#47;
+            <time datetime="2020-02-07">07 февраля 2020</time>
+        </p>
+      </figure>
+    </section>
+    <aside class="page-sidebar">
+      <section class="search">
+        <form class="search__form">
+          <input class="search__input" type="text" name="" placeholder="Поиск по сайту">
+        </form>
+      </section>
+      <ul class="recommendation">
+        <li class="recommendation__item">
+          <a class="recommendation__link" href="">Где заказать вкусные суши с доставкой по Северной
+            <img class="recommendation__image" src="" alt="" width="45" height="45">
+          </a>
+        </li>
+        <li class="recommendation__item">
+          <a class="recommendation__link" href="">Где хорошо делают брови
+            <img class="recommendation__image" src="" alt="" width="45" height="45">
+          </a>
+        </li>
+        <li class="recommendation__item">
+          <a class="recommendation__link" href="">Fly Fishers Serving as Transports for Noxious Little Invaders
+            <img class="recommendation__image" src="" alt="" width="45" height="45">
+          </a>
+        </li>
+        <li class="recommendation__item">
+          <a class="recommendation__link" href="">Fly Fishers Serving as Transports for Noxious Little Invaders
+            <img class="recommendation__image" src="" alt="" width="45" height="45">
+          </a>
+        </li>
+        <li class="recommendation__item">
+          <a class="recommendation__link" href="">Fly Fishers Serving as Transports for Noxious Little Invaders
+            <img class="recommendation__image" src="" alt="" width="45" height="45">
+          </a>
+        </li>
+      </ul>
+      <section class="advertising">
+        <a class="advertising__link" href="">
+          <img src="" alt="" width="125" height="125">
+        </a>
+        <a class="advertising__link" href="">
+          <img src="" alt="" width="125" height="125">
+        </a>
+      </section>
+      <div class="video">
+        <h2 class="video__title">Интересное видео:</h2>
+        <embed class="video__play" src="https://www.youtube.com/embed/5FcJFE6WscI" frameborder="0" allow="allowfullscreen; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+      </div>
+      <div class="aside-noname">
+        <p>Вы можете написать нам и рассказать о Ваших идеях. Предложить темы и статьи.
+           Мы во Вконтакте.
+        </p>
+        <a href="">Перейти во ВК</a>
+      </div>
+    </aside> -->
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__header">
+      <p>Карта сайта&#47;&#47;</p>
+      <p><a class="page-footer__header-link" href="#">Вверх &#9650;</a></p>
+    </div>
+    <div class="page-footer__wrapper">
+      <div class="page-footer__noname footer-noname visually-hidden
+      ">
+        <p class ="footer-noname__text">The Duplex theme comes with support for WP3.0 menus and an extensive set of back-end options.The theme supports 10 widget locations and 8 custom-made widgets; 300x200 Ad Widget, 125x125 Ads Widget, 120x240 Ad Widget, Flickr Photos Widget, Latest Tweets Widget, Tabbed Content Widget, RSS Subscribers and Followers Widget and a Video Widget - Phew!Inbuilt related posts, contact form, author bios, archives template, threaded comments, shortcodes, image slider.... you get the idea
+        </p>
+        <p class ="footer-noname__text">The Duplex theme comes with support for WP3.0 menus and an extensive set of back-end options. The theme supports 10 widget locations and 8 custom-made widgets; 300x200 Ad Widget, 125x125 Ads Widget, 120x240 Ad Widget, Flickr Photos Widget, Latest Tweets Widget, Tabbed Content Widget, RSS Subscribers and Followers Widget and a Video Widget - Phew! Inbuilt related posts, contact form, author bios, archives template, threaded comments, shortcodes, image slider.... you get the idea ;
+        </p>
+        <p class ="footer-noname__text">The Duplex theme comes with support for WP3.0 menus and an extensive set of back-end options. The theme supports 10 widget locations and 8 custom-made widgets; 300x200 Ad Widget, 125x125 Ads Widget, 120x240 Ad Widget, Flickr Photos Widget, Latest Tweets Widget, Tabbed Content Widget, RSS Subscribers and Followers Widget and a Video Widget - Phew! nbuilt related posts, contact form, author bios, archives template, threaded comments, shortcodes, image slider.... you get the idea;
+        </p>
+      </div>
+      <div class="page-footer__nav footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">О Северной</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Новости</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Транспорт</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Районы</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Пляжи</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Что посмотреть</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Еда</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Покупки</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Жилье</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Сауны</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Полезно знать</a>
+          </li>
+          <li class="footer-nav__item">
+            <a class="footer-nav__link" href="">Окрестности</a>
+          </li>
+          <li class="footer-nav__item footer-nav__item--long">
+            <a class="footer-nav__link" href="">Пляжи западного побережья Крыма</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__gallery gallery visually-hidden">
+        <ul class="gallery__list">
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+          <li class="gallery__item"><a class="gallery__link" href=""><img src="img/square.jpg" alt="" width="55" height="55"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <p>&#169; 2020 Nord-Side</p>
+      <div class="copyright__social">
+        <a href="copyright__link-social" aria-label="Мы во В Контакте">
+          <svg class="copyright__image-social" width="15" height="15">
+            <use xlink:href="../img/sprite.svg#icon-vk"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/toggle-nav.js"></script>
+  <script src="../js/toggle-list-nav.js"></script>
+</body>
+</html>
