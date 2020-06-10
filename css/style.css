@@ -805,6 +805,7 @@ input[type="radio"].visually-hidden {
   .main-nav__item {
     border: none;
     min-width: 15%;
+    background-image: none;
   }
   .main-nav__item:first-child {
     border: none;
