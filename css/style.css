@@ -1789,7 +1789,7 @@ input[type="radio"].visually-hidden {
           transform: scale(1.2);
 }
 .post__icon {
-  width: 100%;
+  /*width: 100%;*/
   height: 100%;
   color: #cecece;
 }
